@@ -19,7 +19,7 @@ angular.module('F1FeederApp.controllers', []).
       $scope.removeRow = function () {
           $scope.driversList.pop()
       }
-  }).
+  })
 
   /* Driver controller */
   controller('driverController', function($scope, $routeParams, ergastAPIservice) {
